@@ -1,0 +1,35 @@
+* { font-size: 17pt; }
+section {
+    border: 3px ridge #fff;
+    padding: 20px 0;
+    background-image: linear-gradient(180deg, rgba(85, 85, 85, 1) 7%, rgba(0, 0, 0, 1));
+    width: 260px;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 7px;
+}
+input { 
+    text-align: center; 
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 5px;
+}
+input:focus { background: rgb(238, 227, 193); } 
+#operateur { 
+    width: 40px; 
+    background: #3a99fb69;
+    border: 1px solid #ddd;
+    color: #fff;
+}
+#saisie1, #saisie2 { width: 65px; }
+#resultat { 
+    width: 122px; 
+    background: #3a99fb69;
+    border: 1px solid #ddd;
+    color: #fff;
+}
+button { 
+    cursor: pointer; 
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+}

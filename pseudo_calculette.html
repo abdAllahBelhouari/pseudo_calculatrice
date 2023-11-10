@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="script.js" ></script>
+</head>
+<body>
+    <section>
+        <div>
+            <input id="saisie1" autofocus />
+            <input id="operateur" maxlength="1" onkeyup="checkOperateur(this.value)" />
+            <input id="saisie2" />
+        </div>
+        <div style="margin-top: 5px;" >
+            <button onclick="calculer()" >=</button>
+            <input id="resultat" disabled />
+            <button onclick="window.location.reload()" >C</button>
+        </div>
+    </section>
+</body>
+</html>
